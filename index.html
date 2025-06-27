@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Personal Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:900,700|Poppins:400,600,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="gradient-bg"></div>
+    <button class="theme-toggle" id="theme-toggle" title="Toggle theme">🌙</button>
+    <header>
+        <div class="header-glass">
+            <h1>
+                <span id="typewriter"></span>
+            </h1>
+            <p class="about-me">About Me: <span class="about-highlight">[A short bio about yourself]</span></p>
+            <div class="contact-info">
+                <span>✉️ <a href="mailto:your.email@example.com">your.email@example.com</a></span>
+                <span>📍 [Your Place]</span>
+            </div>
+            <a href="resume.pdf" target="_blank" class="btn-glow">Download Resume</a>
+        </div>
+    </header>
+
+    <nav class="quick-links">
+        <a href="#skills">Skills</a>
+        <a href="#education">Education</a>
+        <a href="#projects">Projects</a>
+        <a href="#achievements">Achievements</a>
+        <a href="#experience">Experience</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <main>
+        <section id="skills" class="glass-card animated-section">
+            <h2>Skills & Abilities</h2>
+            <ul>
+                <li>UI/UX Design</li>
+                <li>JavaScript, React</li>
+                <li>Python, Django</li>
+                <li>Team Collaboration</li>
+            </ul>
+        </section>
+
+        <section id="education" class="glass-card animated-section">
+            <h2>Education</h2>
+            <ul>
+                <li>
+                    <strong>B.Sc. Computer Science</strong> - [University], [Year]<br>
+                    Graduated with honors.
+                </li>
+            </ul>
+        </section>
+
+        <section id="projects" class="glass-card animated-section">
+            <h2>Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card neon-hover">
+                    <strong>My Portfolio</strong> <a href="#">[Live Demo]</a>
+                    <p>Personal website built with React and GSAP animations.</p>
+                </div>
+                <div class="project-card neon-hover">
+                    <strong>Weather App</strong> <a href="#">[GitHub]</a>
+                    <p>Real-time weather using OpenWeatherMap API and animated charts.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="achievements" class="glass-card animated-section">
+            <h2>Achievements</h2>
+            <ul>
+                <li>Winner - Hackathon 2024</li>
+                <li>Top 10 - National Coding Challenge</li>
+            </ul>
+        </section>
+
+        <section id="experience" class="glass-card animated-section">
+            <h2>Experience</h2>
+            <ul>
+                <li>
+                    <strong>Frontend Developer</strong> at [Tech Co.] (2023-2025)<br>
+                    Led UI development for major product launch.
+                </li>
+            </ul>
+        </section>
+
+        <section id="contact" class="glass-card animated-section">
+            <h2>Contact Details</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" autocomplete="off" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" autocomplete="off" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit" class="btn-glow">Send</button>
+            </form>
+            <div class="additional-contact">
+                <p>Or contact me directly at <a href="mailto:your.email@example.com">your.email@example.com</a></p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-glass">
+            <div>
+                <strong>Quick Links:</strong>
+                <a href="#skills">Skills</a> |
+                <a href="#education">Education</a> |
+                <a href="#projects">Projects</a> |
+                <a href="#achievements">Achievements</a> |
+                <a href="#experience">Experience</a> |
+                <a href="#contact">Contact</a>
+            </div>
+            <div>
+                <strong>Contact Information:</strong>
+                <span>Email: your.email@example.com</span> |
+                <span>Location: [Your Place]</span>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
