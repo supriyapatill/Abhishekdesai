@@ -1,9 +1,9 @@
 // Typing effect for the intro headline
 const typewriterElem = document.getElementById('typewriter');
 const lines = [
-    "Hi, I'm <span style='color:#4cc9f0'>[Your Name]</span> ",
-    "Creative Developer & Designer",
-    "Welcome to My Dynamic Portfolio!"
+    "Hi, I'm<span style='color:#4cc9f0'>[Abhishek Desai]</span> ",
+    "Ambitious MBA candidate specialising in HR and Marketing",
+    "Welcome to My Portfolio!"
 ];
 let lineIndex = 0, charIndex = 0, typing = true;
 
